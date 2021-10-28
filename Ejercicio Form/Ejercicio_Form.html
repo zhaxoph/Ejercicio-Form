@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Entrega Form</title>
+	<link rel="stylesheet" href="/css/Ejercicio_Form.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="https://formspree.io" target="__blank">Sitio del Form</a>
+			<a href="https://github.com/zhaxoph?tab=repositories" target="__blank">Mi Repo</a>
+	</nav>
+</header>
+	<p>
+	Tarea de un form utilizando <a href="https://formspree.io">Formspree.io</a>
+	</p>
+	<main>
+		<form action="https://formspree.io/f/xleakaea" method="POST">
+			<label for="nombre">Nombre:
+				<input type="text" name="Nombre">
+			</label>
+			<label for="apellido">Apellido:
+				<input type="text" name="Apellido">
+			</label>
+			<label for="edad">Edad:
+				<input type="number" name="Edad" min="0" max="99">
+			</label>
+			<label for="email">Email:
+				<input type="email" name="Email" id="email">
+			</label>
+			<label for="direccion">Direccion:
+				<input type="text" name="Direccion" id="">
+			</label>Mensaje:
+			<textarea name="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+			<button type="submit">Enviar</button>
+		</form>
+	</main>
+	
+	<footer> <p>Arturo Martinez &copy; Todos los derechos reservados </p> </footer>
+</body>
+</html>
